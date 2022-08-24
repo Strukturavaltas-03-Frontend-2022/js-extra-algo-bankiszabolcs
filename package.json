@@ -1,6 +1,6 @@
 {
-    "type": "module",
-   "scripts": {
+  "type": "module",
+  "scripts": {
     "test": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest",
     "test:bas": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest basic.test.js",
     "test:int": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest intermediate.test.js",
