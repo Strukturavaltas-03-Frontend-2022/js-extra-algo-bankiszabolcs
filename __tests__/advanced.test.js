@@ -47,6 +47,6 @@ describe('Advanced algorithms ', () => {
 
     const result = getUnionOfTwoArrays(arr1, arr2)
 
-    expect(result).toEqual([1, 3, 2, 4, 5, 6, 7])
+    expect(result).toEqual(expect.arrayContaining([1, 2, 3, 4, 5]))
   })
 })
